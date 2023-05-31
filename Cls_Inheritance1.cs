@@ -50,10 +50,7 @@ namespace MyCsharpPlayground
         {
             Credits();
             return "Balance is debited ";
-        }
-
-       
-
+        }  
 
         
     }
