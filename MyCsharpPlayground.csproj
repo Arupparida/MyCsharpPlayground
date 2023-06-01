@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyCsharpPlayground.Cls_Inheritance1</StartupObject>
+    <StartupObject>MyCsharpPlayground.PeakElement</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Class_GetSet.cs" />
     <Compile Include="Cls_Inheritance1.cs" />
     <Compile Include="CountOccurence.cs" />
+    <Compile Include="PeakElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
