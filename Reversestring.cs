@@ -65,16 +65,25 @@ namespace MyCsharpPlayground
             }
 
 
+            //Another mehod to do reverse a string
 
-
-            /*for(int i =0; i < n - 1; i++)
+            string strr = "transpose";
+            string reverse = " ";
+            int length = strr.Length - 1;
+            while (length >= 0)
             {
-                startindex = i; 
-                endindex = n -1;
-                s[startindex] = s[endindex];
+                reverse = reverse + strr[length];
+                length--;
+            }
+            Console.Write(reverse);
+
+
+
+
+            
               
 
-            }*/
+           
 
 
 
