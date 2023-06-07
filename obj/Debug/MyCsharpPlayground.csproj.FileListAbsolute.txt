@@ -5,3 +5,4 @@ C:\Users\ARUP PARIDA\source\repos\MyCsharpPlayground\obj\Debug\MyCsharpPlaygroun
 C:\Users\ARUP PARIDA\source\repos\MyCsharpPlayground\obj\Debug\MyCsharpPlayground.csproj.CoreCompileInputs.cache
 C:\Users\ARUP PARIDA\source\repos\MyCsharpPlayground\obj\Debug\MyCsharpPlayground.exe
 C:\Users\ARUP PARIDA\source\repos\MyCsharpPlayground\obj\Debug\MyCsharpPlayground.pdb
+C:\Users\ARUP PARIDA\source\repos\MyCsharpPlayground\obj\Debug\MyCsharpPlayground.csproj.SuggestedBindingRedirects.cache
