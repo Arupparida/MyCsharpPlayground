@@ -21,7 +21,7 @@ namespace MyCsharpPlayground
             while (num > 0)
             {
                 rem = num % 10;
-                reverse = rem * 10 + rem;
+                reverse = reverse * 10 + rem;
                 num = num / 10;
             }
             Console.WriteLine("Reversed num  : " + reverse);
