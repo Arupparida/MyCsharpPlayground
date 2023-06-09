@@ -12,18 +12,22 @@ namespace MyCsharpPlayground
     {
         public static void Main()
         {
-            /*
+            
             //Reverse the string
             //Let's first reverse a num
             int num = 5678;
             int rem;
-          
-            rem = num % 10;
-            num = rem * 10 + num / 10;
-            Console.WriteLine("Reversed num  : " + num);
+            int reverse = 0;
+            while (num > 0)
+            {
+                rem = num % 10;
+                reverse = rem * 10 + rem;
+                num = num / 10;
+            }
+            Console.WriteLine("Reversed num  : " + reverse);
 
             //Reverse a string 
-
+            /*
             //It has something to do with index; swap index sequentially;
             string s = "Kite";
             int startindex;  int endindex;
@@ -41,6 +45,7 @@ namespace MyCsharpPlayground
             */
 
             //Second Method using recursion
+            /*
             int start = 0;
             int end = 5;
 
@@ -63,12 +68,12 @@ namespace MyCsharpPlayground
                 Console.Write(SArr[i]+ " ");
                 
             }
-
+            */
 
             //Another mehod to do reverse a string
-
+            /*
             string strr = "transpose";
-            string reverse = " ";
+            string reverse = "";
             int length = strr.Length - 1;
             while (length >= 0)
             {
@@ -76,6 +81,9 @@ namespace MyCsharpPlayground
                 length--;
             }
             Console.Write(reverse);
+            Console.WriteLine();
+            */
+
 
 
 
