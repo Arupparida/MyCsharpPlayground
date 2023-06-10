@@ -40,7 +40,7 @@ namespace MyCsharpPlayground
             Console.WriteLine(sum);
 
             //Program : find sum of n numbers
-            Console.WriteLine();
+            Console.Write("The sum of first n numbers :");
             int result = 0;
             while (n > 0)
             {
@@ -50,6 +50,10 @@ namespace MyCsharpPlayground
             Console.WriteLine(result);
 
 
+
+            //Other sum problems 
+            //program to calculate sum of 2 matrix 
+            //program to calculate sum of elements in a array 
 
         }
     }
