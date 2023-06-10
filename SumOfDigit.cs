@@ -13,6 +13,9 @@ namespace MyCsharpPlayground
 
         public static void Main()
         {
+
+            //#region 
+
             //Method1
             Console.Write("Pls enter a value of n ");
            int n= Convert.ToInt32(Console.ReadLine());
@@ -25,7 +28,7 @@ namespace MyCsharpPlayground
             Console.WriteLine(sum);
 
             
-
+            //Method 2
             Console.WriteLine("Pls enter n");
             int j= Convert.ToInt32(Console.ReadLine());
             int res=0;
@@ -34,9 +37,19 @@ namespace MyCsharpPlayground
                 res = res + j;
                 j--;
             }
-            Console.WriteLine(sum); 
-            
-            
+            Console.WriteLine(sum);
+
+            //Program : find sum of n numbers
+            Console.WriteLine();
+            int result = 0;
+            while (n > 0)
+            {
+                result = result + n;    
+                n--;                
+            }
+            Console.WriteLine(result);
+
+
 
         }
     }
