@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyCsharpPlayground.Palindromecls</StartupObject>
+    <StartupObject>MyCsharpPlayground.Factorialcls</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Cls_Inheritance1.cs" />
     <Compile Include="CountOccurence.cs" />
     <Compile Include="Encapsulation_sample.cs" />
+    <Compile Include="Factorialcls.cs" />
     <Compile Include="FibonacciCls.cs" />
     <Compile Include="Findminmax.cs" />
     <Compile Include="Palindromecls.cs" />
