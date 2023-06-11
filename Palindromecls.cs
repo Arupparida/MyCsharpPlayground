@@ -8,17 +8,15 @@ namespace MyCsharpPlayground
 {
     internal class Palindromecls
     {   
-
-        /*
-         * Check if a given string is a palindrome. 
+        // Check if a given string is a palindrome. 
                  
-         * 
-         */
+         
 
         //Invastigate code - recursive method
         /* 
          
-         
+        //1st method 
+
         bool solution(string inputString)
         {
             int len = inputString.Length;
@@ -30,17 +28,33 @@ namespace MyCsharpPlayground
                     i++;
                     len--;
                 }
-
-
             }
             return true;
             Console.WriteLine("false");
-
-
-
         }
-
         */
+
+        //2nd Method
+
+        public static bool IsPalindrome(string text)
+        {
+            if (text.Length <= 1)
+            {
+                return true;
+            }
+            else
+            {
+                if (text[0] != text[text.Length - 1]) 
+                {
+                    return false;
+                }
+                else
+                {
+                    return IsPalindrome(text.Substring(1, text.Length - 2));
+                }
+
+            }
+        }
 
 
 
@@ -50,12 +64,14 @@ namespace MyCsharpPlayground
             //A palindrome number is a number that is same after reverse.
             //For example 121, 34543, 343, 131, 48984 are the palindrome numbers.
             //Write a program to check if number is a palindrome.
-            int reverse = 0;
-            int reminder = 0;
+            
            
             Console.Write("Pls enter a number : ");
             int number =  int.Parse(Console.ReadLine());
             int temp = number;
+
+            int reverse = 0;
+            int reminder = 0;
             //new thing learned here , just comment out temp in above step and use number variable 
             //to compare to the reverse number. The result is wrong.
 
@@ -79,13 +95,34 @@ namespace MyCsharpPlayground
             {
                 Console.WriteLine("nil");
             }
-                
-            
 
+
+            /*
+             //2nd method 
             Palindromecls nobj = new Palindromecls();
             nobj.solution("abac");
-            Console.WriteLine(nobj.solution("abac"));
-            
+            Console.WriteLine(nobj.solution("abac"));      
+            */
+
+
+
+
+            //3rd method
+            /*
+            Console.Write(" Input a string : ");
+            string str1 = Console.ReadLine();
+            bool tf = IsPalindrome(str1);
+            if (tf == true)
+            {
+                Console.WriteLine(" The string is Palindrome.\n");
+            }
+            else
+            {
+                Console.WriteLine(" The string is not a Palindrome.\n");
+            }
+            */
+
+
 
 
         }
