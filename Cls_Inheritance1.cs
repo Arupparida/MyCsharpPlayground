@@ -49,7 +49,9 @@ namespace MyCsharpPlayground
         
         {
             Credits();
+            Console.WriteLine(Credits());
             return "Balance is debited ";
+          
         }  
 
         
