@@ -22,36 +22,45 @@ namespace MyCsharpPlayground
         public static void  Main()
         {
             //check if the given number is a prime number or not 
-            int num = int.Parse(Console.ReadLine());
-            bool flag = false;
             Console.WriteLine("Pls enter a number to check for prime number");
-            for (int i = 2; i <= num; i++)
+            int num = int.Parse(Console.ReadLine());
+            bool flag = true;
+
+
+            for (int i = 2; i <= num/2; i++)
 
             {
+                if (num == 2)
+                {
+                    flag = true;
+                }
 
                 if (num % i == 0)
                 {
-                    flag = true;
-                    Console.WriteLine("It's a non-Prime Number");
+                    flag = false;
+                    //Console.WriteLine("It's a non-Prime Number");
                     break;
                 }
-            
-                    
-                
-
-                if (flag == false)
-                {
-                    Console.WriteLine("It's a Prime Number");
-               
-                }
-
-
-
-
-
-
 
             }
+
+
+            if (flag == true)
+            {
+                Console.WriteLine("It's a Prime Number");
+
+            }
+            else Console.WriteLine("It's not a prime number");
+                    
+
+            
+
+
+
+
+
+
+            
             /*
              * More problems related to Prime number  - src gfg
              * Find two distinct prime numbers with a given product

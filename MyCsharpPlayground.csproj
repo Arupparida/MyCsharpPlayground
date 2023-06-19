@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyCsharpPlayground.Factorialcls</StartupObject>
+    <StartupObject>MyCsharpPlayground.Cls_Inheritance1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="Factorialcls.cs" />
     <Compile Include="FibonacciCls.cs" />
     <Compile Include="Findminmax.cs" />
+    <Compile Include="Inheritance2.cs" />
     <Compile Include="Palindromecls.cs" />
     <Compile Include="PeakElement.cs" />
     <Compile Include="PrimeNumCls.cs" />

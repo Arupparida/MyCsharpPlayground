@@ -56,11 +56,44 @@ namespace MyCsharpPlayground
             }
         }
 
+        //Another method to do Palindrome - easy and simple 
+        public static bool solution(string inputString)
+        {
+            int start = 0, end = inputString.Length - 1;
+
+            while (start <= end)
+            {
+                if (inputString[start] != inputString[end])
+                {
+                    return false;
+                }
+
+                start++;
+                end--;
+
+            }
+            return true;
+
+        }
+
 
 
 
         public static void Main()
         {
+            string str2 = Console.ReadLine();
+            bool mg = solution(str2);
+            if (mg == true)
+            {
+                Console.WriteLine(" The string is Palindrome.\n");
+            }
+            else
+            {
+                Console.WriteLine(" The string is not a Palindrome.\n");
+            }
+            
+            //solution("neen");
+
             //A palindrome number is a number that is same after reverse.
             //For example 121, 34543, 343, 131, 48984 are the palindrome numbers.
             //Write a program to check if number is a palindrome.
